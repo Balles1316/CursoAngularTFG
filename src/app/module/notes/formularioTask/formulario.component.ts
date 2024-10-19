@@ -3,8 +3,8 @@ import { addDoc, collection, Firestore } from '@angular/fire/firestore';
 import { Observable } from 'rxjs';
 import { AsyncPipe, CommonModule, NgFor } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { TaskService } from '../../task.service';
-import {Task} from '../../task.model'; // Importa el servicio
+import { TaskService } from '../../../task.service';
+import {Task} from '../../../task.model'; // Importa el servicio
 
 @Component({
   selector: 'app-formulario',

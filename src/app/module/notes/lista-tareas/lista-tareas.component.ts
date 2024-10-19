@@ -13,8 +13,8 @@ import { Observable } from 'rxjs';
 import { CommonModule } from '@angular/common';
 import { AsyncPipe } from '@angular/common';
 import { ReactiveFormsModule, FormBuilder, FormGroup } from '@angular/forms';
-import { Task } from '../../task.model';
-import { TaskService } from '../../task.service'; // Importa el servicio que vas a crear
+import { Task } from '../../../task.model';
+import { TaskService } from '../../../task.service'; // Importa el servicio que vas a crear
 
 @Component({
   selector: 'app-lista-tareas',

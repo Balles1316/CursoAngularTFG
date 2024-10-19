@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import {FormularioComponent} from './components/formulario/formulario.component';
-import {ListaTareasComponent} from './components/lista-tareas/lista-tareas.component';
-import {GeneralModule} from './general/general.module';
-import {FloatingButtonComponent} from './components/floating-button/floating-button.component';
+import {FormularioComponent} from './module/task/formularioTask/formulario.component';
+import {ListaTareasComponent} from './module/task/lista-tareas/lista-tareas.component';
+import {GeneralModule} from './module/general/general.module';
+import {FloatingButtonComponent} from './module/general/floating-button/floating-button.component';
 
 @Component({
   selector: 'app-root',
