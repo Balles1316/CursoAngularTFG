@@ -1,0 +1,51 @@
+.footer {
+  background-color: #1a1a1a; /* Cambia el color de fondo */
+  color: #ffffff; /* Cambia el color del texto */
+  padding: 20px 0;
+  text-align: center;
+
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-logo img {
+  width: 100px; /* Ajusta el tamaño según tu diseño */
+}
+
+.footer-links {
+  margin: 15px 0;
+}
+
+.footer-links a {
+  color: #ffffff;
+  margin: 0 10px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: #f1c40f; /* Cambia a un color diferente al pasar el mouse */
+}
+
+.footer-social {
+  margin: 15px 0;
+}
+
+.footer-social a {
+  color: #ffffff;
+  margin: 0 10px;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.footer-bottom a {
+  color: #ffffff;
+  text-decoration: none;
+}
