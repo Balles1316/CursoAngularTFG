@@ -1,0 +1,7 @@
+h1 {
+  font-size: 36px;  /* Aumenta el tamaño del texto */
+  text-align: center;  /* Centra el texto horizontalmente */
+  margin: 10px;  /* Elimina márgenes por defecto */
+  padding-top: 20px;  /* Opcional: añade un poco de espacio superior si es necesario */
+}
+

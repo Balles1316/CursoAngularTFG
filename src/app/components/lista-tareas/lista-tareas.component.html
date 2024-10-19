@@ -1,0 +1,15 @@
+<h2>Items</h2>
+<div class="card-container">
+  <div *ngFor="let item of items$ | async; trackBy: trackById" class="card">
+    <div class="card-body">
+      <label><strong>Título:</strong></label>
+      <p>{{ item.title }}</p>
+      <label><strong>Descripción:</strong></label>
+      <p>{{ item.description }}</p>
+      <label><strong>Estado:</strong></label>
+      <p>{{ item.status }}</p>
+      <button class="btn btn-update" (click)="loadTaskForEdit(item)">Actualizar</button>
+      <button class="btn btn-danger" (click)="deleteItem(item.id!)">Eliminar</button>
+    </div>
+  </div>
+</div>
