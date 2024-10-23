@@ -5,3 +5,6 @@ h1 {
   padding-top: 20px;  /* Opcional: añade un poco de espacio superior si es necesario */
 }
 
+*{
+  background-color: black;
+}

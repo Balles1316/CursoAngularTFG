@@ -1,15 +1,16 @@
 import { Component } from '@angular/core';
+import {Router, RouterLink, RouterOutlet} from '@angular/router';
 
 @Component({
   selector: 'app-floating-button',
   standalone: true,
-  imports: [],
+    imports: [
+        RouterLink,
+        RouterOutlet
+    ],
   templateUrl: './floating-button.component.html',
-  styleUrl: './floating-button.component.css'
+  styleUrls: ['./floating-button.component.css']
 })
 export class FloatingButtonComponent {
 
-  onButtonClick() {
-    alert('Botón flotante clickeado!');
-  }
 }
